@@ -1,7 +1,0 @@
-[build]
-  node_version = "16"
-  publish = "dist"
-  command = "npm run build"
-
-[context.production.environment]
-  NODE_OPTIONS = "--openssl-legacy-provider"
